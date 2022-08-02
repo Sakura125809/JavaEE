@@ -1,15 +1,11 @@
-# JavaEE
+# Exercise2
 
-​	此为21级小学期 **Java EE** 课程的三次实验及大作业任务书、源码与报告
+## 环境
 
-​	~~本应该是四次实验，其中实验二因为课程压缩取消了。~~
++ By [IntelliJ IDEA](https://www.jetbrains.com/idea/)
 
-​	本项目中实验2、3分别对应正常课程的实验3、4。
++ JDK 1.8
 
-[实验1]((https://github.com/Sakura-LZQ/JavaEE/tree/Exercise1))  
+## 说明
 
-[实验2]()  
-
-[实验3]()  
-
-[大作业]()
++ 数据库使用前先在 **DBUtil** 中输入自己的 **PASSWORD** 
