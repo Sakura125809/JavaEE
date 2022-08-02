@@ -1,0 +1,257 @@
+@CHARSET "UTF-8";
+* {
+    padding: 0;
+    margin: 0;
+}
+
+div.container {
+    width: 1030px;
+    border: 3px solid #00AADD;
+    margin: 0 auto;
+}
+
+div.header {
+    height: 110px;
+    background-image: url(../image/student.jpg);
+}
+
+.header > img {
+    margin-left: 80px;
+    margin-top: 5px;
+}
+
+.header button {
+    font-family: '幼圆';
+    border-radius: 5px;
+    height: 23px;
+    width: 70px;
+}
+
+.header button {
+    font-size: 13px;
+    font-weight: bold;
+    background: linear-gradient(#FFF, #EEE, #FFF);
+}
+
+.header > form > button {
+    border-style: groove;
+    position: relative;
+    top: -100px;
+    left: 950px;
+}
+
+.header button {
+    cursor: pointer;
+}
+
+.header button:hover {
+    background: linear-gradient(#FFF, #ddd, #FFF);
+}
+
+.nav ul {
+    list-style-type: none;
+}
+
+.nav-cls1 > ul > li {
+    float: left;
+    margin: 0 1px;
+}
+
+.nav-cls1 > ul > li > a {
+    display: inline-block;
+    height: 25px;
+    width: 160px;
+    text-align: center;
+    letter-spacing: 12px;
+    color: #000;
+    font-weight: bold;
+}
+
+.nav-cls1 > ul {
+    margin-top: 2px;
+}
+
+.nav-cls1 > ul > li > a {
+    background: linear-gradient(#FFF, #EEE, #FFF);
+    border: 1px solid #DDD;
+}
+
+.nav-cls1 > ul > li > a {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.nav-cls1 > ul > li > a.index {
+    background: linear-gradient(#FFF, #09F, #FFF);
+}
+
+.nav-cls1 > ul > li > a:hover {
+    color: #F04;
+    text-decoration: none;
+}
+
+.main {
+    clear: both;
+    margin-top: 3px solid #ooaadd;
+}
+
+.left, .center {
+    height: 600px;
+    background-color: #8DD8F8;
+    margin: 3px;
+    float: left;
+}
+
+.left {
+    width: 170px;
+}
+
+.center {
+    width: 848px;
+}
+
+.center > h1 {
+    font-family: '幼圆';
+    font-style: italic;
+    color: #0080ff;
+    font-size: 40px;
+}
+
+.center > h1 {
+    text-align: center;
+    margin-top: 200px;
+}
+
+.center > h3 {
+    font-family: '幼圆';
+    color: #0080ff;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.center > h3 {
+    margin-top: 25px;
+    margin-left: 30px;
+}
+
+.center input {
+    background-color: snow;
+    border-style: groove;
+    margin-left: 10px;
+}
+
+/*.center hr {margin-top: 5px; height: 2px;}*/
+.center textarea {
+    background-color: snow;
+    border-style: groove;
+}
+
+.center div {
+    margin-left: 280px;
+    margin-top: 10px;
+}
+
+.center label {
+    font-family: '幼圆';
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.center button {
+    font-family: '幼圆';
+    border-radius: 5px;
+    height: 25px;
+    width: 80px;
+}
+
+.center button {
+    font-size: 15px;
+    font-weight: bold;
+    background: linear-gradient(#FFF, #EEE, #FFF);
+}
+
+.center button {
+    border-style: groove;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+
+.center button {
+    cursor: pointer;
+}
+
+.center button:hover {
+    background: linear-gradient(#FFF, #ddd, #FFF);
+}
+
+.center table {
+    margin-top: 8px;
+}
+
+.center table {
+    border-collapse: collapse;
+}
+
+/*设定单元格固定的高和宽，文字居中*/
+.center th, td {
+    height: 32px;
+    width: 200px;
+    text-align: center;
+}
+
+/*设定表头背景颜色和字体颜色*/
+.center thead {
+    background-color: #000;
+    color: #fff
+}
+
+/*设定表格斑马纹风格*/
+.center tbody tr :nth-child(even) {
+    background-color: #ddf
+}
+
+.center tbody tr :hover {
+    color: red
+}
+
+.left > h3 {
+    height: 55px;
+    width: 160px;
+    margin: 0 auto;
+    background-image: url(../image/top.gif);
+}
+
+.left > h3 {
+    margin-top: 50px;
+}
+
+.left > ul > li {
+    height: 35px;
+    width: 125px;
+    background-image: url(../image/bgpicture.gif);
+}
+
+.left > ul > li {
+    margin: 20px 5px;
+    padding-left: 35px;
+}
+
+.left > ul > li > a {
+    display: inline-block;
+    height: 35px;
+    line-height: 35px;
+}
+
+.left > ul > li > a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.left > ul > li > a:hover {
+    font-size: 17px;
+    color: orange;
+}
+
+.footer {
+    text-align: center;
+}

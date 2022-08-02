@@ -1,0 +1,173 @@
+@CHARSET "UTF-8";
+/*使用*选择器去掉所有元素的默认边距(padding内边距 margin外边距)*/
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.header button {
+    font-family: '幼圆';
+    border-radius: 5px;
+    height: 23px;
+    width: 70px;
+}
+
+.header button {
+    font-size: 13px;
+    font-weight: bold;
+    background: linear-gradient(#FFF, #EEE, #FFF);
+}
+
+.header > form > button {
+    border-style: groove;
+    position: relative;
+    top: -100px;
+    left: 950px;
+}
+
+.header button {
+    cursor: pointer;
+}
+
+.header button:hover {
+    background: linear-gradient(#FFF, #ddd, #FFF);
+}
+
+.container {
+    width: 1200px;
+    background-color: #eee;
+    margin: 0 auto;
+}
+
+.header {
+    height: 100px;
+    background-color: pink;
+}
+
+.nav-cls1 {
+    height: 50px;
+    background-color: snow;
+}
+
+.left, .right {
+    width: 200px;
+    background-color: lightskyblue;
+    height: 1000px
+}
+
+.center {
+    width: 800px;
+    height: 1000px;
+    background-color: orange;
+}
+
+/*给main容器内的三个兄弟div加上左浮动，可以使得它们水平排列*/
+.main > div {
+    float: left;
+}
+
+.footer {
+    height: 50px;
+    background-color: snow;
+    clear: both;
+}
+
+/*高，宽，左浮动，字体，字体大小，字体加粗，文字水平垂直居中(当行高和高度一致时，文本内容将竖直居中)*/
+ul li {
+    list-style-type: none;
+}
+
+.nav-cls1 ul li {
+    height: 50px;
+    width: 150px;
+    float: left;
+    font-family: '微软雅黑';
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 50px;
+}
+
+.nav-cls1 ul li:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer
+}
+
+.toolbox > span {
+    display: block;
+    height: 35px;
+    background-color: #eee;
+}
+
+.toolbox > span {
+    text-align: center;
+    line-height: 35px;
+    font-weight: bold;
+}
+
+.toolbox > span {
+    font-family: '微软雅黑';
+    font-size: 16px;
+    color: #aaa;
+}
+
+.toolbox > a {
+    height: 60px;
+    width: 160px;
+    display: block;
+    text-decoration: none;
+}
+
+.toolbox > a {
+    text-align: center;
+    line-height: 60px;
+    margin: 10px auto;
+}
+
+/*设置边角的弧度*/
+.toolbox > a {
+    border-radius: 10px;
+}
+
+.toolbox > a.one {
+    background-color: #A7DE95;
+}
+
+.toolbox > a.one {
+    font-family: '黑体';
+    font-size: 16px;
+    color: #4A7E37;
+    font-weight: bold;
+}
+
+.toolbox > a.two {
+    background-color: #D9BCE7;
+}
+
+.toolbox > a.two {
+    font-family: '黑体';
+    font-size: 16px;
+    color: #7E5593;
+    font-weight: bold;
+}
+
+.toolbox > a.three {
+    background-color: #E6AB8C;
+}
+
+.toolbox > a.three {
+    font-family: '黑体';
+    font-size: 16px;
+    color: #8D5436;
+    font-weight: bold;
+}
+
+.header > audio {
+    float: right;
+    margin-top: 35px;
+    margin-right: 20px;
+}
+
+
+

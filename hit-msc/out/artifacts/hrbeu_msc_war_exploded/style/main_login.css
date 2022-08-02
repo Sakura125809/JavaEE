@@ -1,0 +1,173 @@
+@CHARSET "UTF-8";
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.header button {
+    font-family: '幼圆';
+    border-radius: 5px;
+    height: 23px;
+    width: 70px;
+}
+
+.header button {
+    font-size: 13px;
+    font-weight: bold;
+    background: linear-gradient(#FFF, #EEE, #FFF);
+}
+
+.header button {
+    border-style: groove;
+    position: relative;
+    top: -80px;
+    left: 765px;
+}
+
+.header button {
+    cursor: pointer;
+}
+
+.header button:hover {
+    background: linear-gradient(#FFF, #ddd, #FFF);
+}
+
+div.container {
+    width: 1030px;
+    border: 3px solid #00AADD;
+    margin: 0 auto;
+}
+
+.main {
+    clear: both;
+    margin-top: 3px solid #ooaadd;
+}
+
+.left, .center {
+    height: 600px;
+    float: left;
+    background: linear-gradient(#7adbf8, #c2effd, #70dbf8)
+}
+
+.center {
+    background: linear-gradient(#7adbf8, #c2effd, #70dbf8);
+}
+
+.left {
+    width: 608px;
+}
+
+.left > h1 {
+    font-family: '幼圆';
+    color: #0080ff;
+    font-size: 27px;
+}
+
+.left > h1 {
+    text-align: center;
+    margin-top: 45px;
+}
+
+.pic1 {
+    position: relative;
+    top: -55px;
+    left: 17px;
+}
+
+.pic2 {
+    position: relative;
+    top: -50px;
+    left: 0px;
+}
+
+.center {
+    width: 422px;
+}
+
+.center > img {
+    margin-top: 130px;
+}
+
+.center form {
+    position: relative;
+    top: -10px;
+    left: 0px;
+    background: linear-gradient(#e9ecfc, #95e0f9);
+}
+
+.center form {
+    margin-top: 0px;
+    padding-top: 20px;
+    padding-bottom: 80px;
+}
+
+.center > h1 {
+    font-family: '幼圆';
+    font-style: italic;
+    color: #0080ff;
+    font-size: 40px;
+}
+
+.center > h1 {
+    text-align: center;
+    margin-top: 200px;
+}
+
+.center > h3 {
+    font-family: '幼圆';
+    color: #0080ff;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.center > h3 {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.center input {
+    background-color: snow;
+    border-style: groove;
+}
+
+.center div {
+    margin-left: 80px;
+    margin-top: 17px;
+}
+
+.center label {
+    font-family: '幼圆';
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.center button {
+    font-family: '幼圆';
+    border-radius: 5px;
+    height: 27px;
+    width: 82px;
+}
+
+.center button {
+    font-size: 17px;
+    font-weight: bold;
+    background: linear-gradient(#FFF, #EEE, #FFF);
+}
+
+.center button {
+    border-style: groove;
+    margin-left: 70px;
+    margin-top: 15px;
+}
+
+.center button {
+    cursor: pointer;
+}
+
+.center button:hover {
+    background: linear-gradient(#FFF, #ddd, #FFF);
+}
+
+.footer {
+    text-align: center;
+}
