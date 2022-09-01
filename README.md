@@ -18,6 +18,6 @@
 
 ## 感谢
 
-@[Oliver Chen](https://github.com/OliverChen12)
+[@Oliver Chen](https://github.com/OliverChen12)
 
-@[布朗尼兔](https://github.com/bronia-rabit)
+[@布朗尼兔](https://github.com/bronia-rabit)
