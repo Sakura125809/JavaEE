@@ -1,0 +1,27 @@
+@CHARSET "UTF-8";
+/*合并边框*/
+table {
+    border-collapse: collapse;
+}
+
+/*设定单元格固定的高和宽，文字居中*/
+th, td {
+    height: 32px;
+    width: 200px;
+    text-align: center;
+}
+
+/*设定表头背景颜色和字体颜色*/
+thead {
+    background-color: #000;
+    color: #fff
+}
+
+/*设定表格斑马纹风格*/
+tbody tr :nth-child(even) {
+    background-color: #ddd
+}
+
+tbody tr :hover {
+    color: red
+}
